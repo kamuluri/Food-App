@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font family and color */
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark gray text color */
+}
+
+/* Header styling */
+header {
+    background-color: #ffc107; /* Yellow background color */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Navigation links */
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Light gray background color */
+}
+
+nav a:hover {
+    background-color: #ddd; /* Darker gray background color on hover */
+}
+
+/* Main content area */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Styling for links within the content */
+.container a {
+    color: #007bff; /* Blue link color */
+}
+
+.container a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
